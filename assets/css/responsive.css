@@ -1,0 +1,85 @@
+/* PC */
+@media (min-width: 1024px) {}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    .s__col__full {
+        width: 100% !important;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    .solution__section {
+        flex-wrap: wrap;
+
+    }
+
+    .strategy__info .info__number::after {
+        width: 70px;
+        top: 90px;
+
+    }
+
+    .register__wrap {
+        height: 320px;
+    }
+
+    .reg-form {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* Mobile */
+@media (max-width: 739px) {
+    html {
+        font-size: 40%;
+    }
+    .header {
+        background-color: var(--theme-color);
+        height: 64px;
+    }
+
+    .header .header__main {
+        padding: 0;
+    }
+
+    .header .header__logo {
+        color: var(--white-color);
+        line-height: 64px;
+        padding: 0 10px;
+
+    }
+
+    .header .header__logo:hover {
+        background-color: #ccc;
+        color: var(--theme-color);
+        cursor: pointer;
+    }
+
+    .header__nav {
+        margin: 10px auto;
+    }
+
+    .header .nav__items>li>a {
+        color: var(--white-color);
+    }
+
+    .register__btn {
+        color: var(--theme-color);
+        background-color: #ccc;
+    }
+
+    .header .nav__items>li:hover {
+        background-color: #ccc;
+    }
+
+    #mobile__menu {
+        display: block;
+    }
+}
