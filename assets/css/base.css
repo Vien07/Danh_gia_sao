@@ -6,8 +6,8 @@
 
 * {
     box-sizing: inherit;
-    list-style: inherit;
-    text-decoration: inherit;
+    list-style: none;
+    text-decoration: none !important;
     margin: 0;
     padding: 0;
 }
@@ -16,32 +16,12 @@ html {
     font-size: 62.5%; /* 1rem = 10px */
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
     scroll-behavior: smooth;
 }
 
-.grid{
-    width: 1200px;
-    max-width: calc(100% - 60px) ;
-    margin: 0 auto;
+.text-theme{
+    color: var(--theme-color);
 }
-
-.grid__full-witdh{
-    width: 100%;
+.p-default{
+    padding: 6rem 0;
 }
-
-.grid__row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col__half{
-    width: 50%;
-}
-
-.mt-6{
-    margin-top: 6rem;
-}
-
-
