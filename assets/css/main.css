@@ -183,9 +183,7 @@
     width: 50rem;
 }
 
-.solution__content {
-    padding-left: 50px;
-}
+
 
 .solution__content > h3 {
     color: var(--theme-color);
